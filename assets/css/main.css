@@ -169,6 +169,7 @@ body {
   font-family: var(--font_display);
   color: var(--font_color_01);
   font-size: 14px;
+  background-color: #f6f4f0;
 }
 
 p {
@@ -204,13 +205,13 @@ button.button {
 }
 
 ::-moz-selection {
-  background: var(--primary_color_01);
+  background: var(--secondary_color_01);
   color: #fff;
   text-shadow: none;
 }
 
 ::selection {
-  background: var(--primary_color_01);
+  background: var(--secondary_color_01);
   color: #fff;
   text-shadow: none;
 }
@@ -8349,7 +8350,7 @@ a.meanmenu-reveal {
 }
 
 .contact1__input__form form#contact-form .form-control:focus {
-  border-color: var(--primary_color_01);
+  border-color: var(--secondary_color_01);
 }
 
 .contact1__input__form
@@ -9653,9 +9654,9 @@ footer {
   padding: 12px 10px;
 }
 .prjctShowMain .nav-link.active {
-  background-color: var(--primary_color_01);
+  background-color: var(--secondary_color_01);
   color: #fff;
-  border-color: var(--primary_color_01);
+  border-color: var(--secondary_color_01);
   font-weight: 600;
   border-radius: 5px;
 }
@@ -9668,7 +9669,6 @@ footer {
   padding: 10px 15px;
   border-radius: 4px;
   font-weight: 400;
-  font-size: 14px;
   position: relative;
   box-shadow: 0px 15px 20px -17px #00000029;
 }
@@ -9679,19 +9679,19 @@ footer {
 .prjctShowInner .nav-link:hover {
   /* background-color: var(--primary_color_01);
   color: #fff; */
-  background-color: var(--primary_color_01) !important;
+  background-color: var(--secondary_color_01) !important;
   font-weight: 500;
   color: #fff !important;
 }
 .prjcyImg img {
   width: 100%;
-  height: 100%;
+  /* height: 100%;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 5px; */
 }
 .prjcyImg {
   overflow: hidden;
-  height: 500px;
+  height: 480px;
   border: 1px solid rgb(246, 246, 246);
   padding: 18px 20px;
   background-color: rgb(255, 255, 255);
@@ -9862,8 +9862,10 @@ footer {
   margin-bottom: 2rem;
 }
 .CTAButton {
-  font-size: 15px;
+  background-color: var(--secondary_color_01) !important;
+  border-color: var(--secondary_color_01) !important;
   padding: 10px 30px;
+  width: 100%;
 }
 
 .CtaModalDialog {
@@ -10219,7 +10221,7 @@ footer > .container {
 }
 
 .prjctShowInner .nav-link.active:after {
-  border-bottom: 1px solid var(--primary_color_01) !important;
+  border-bottom: 1px solid var(--secondary_color_01) !important;
 }
 .productSec {
   background-color: #f9fcff;
@@ -10229,11 +10231,11 @@ footer > .container {
 }
 
 .bannerHeading {
-  font-size: 47px;
+  font-size: 45px;
   line-height: 56px;
 }
 .bannerDesc {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 33px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -10334,10 +10336,14 @@ footer > .container {
   border-radius: 50%;
   color: #fff;
   position: relative;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .aboutLabelInfo h3 {
-  font-size: 24px;
-  margin-bottom: 5px;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 .aboutLabelInfo p {
   line-height: 22px;
@@ -10412,4 +10418,36 @@ footer > .container {
 .aboutLabel.text-start:last-child::before {
   height: 143px;
   bottom: 38px;
+}
+.bgCircle,.bgCircle2 {
+  position: absolute;
+  z-index: 0;
+  border: 2px dashed #e6e6e6;
+  left: 0;
+  border-radius: 50%;
+  margin: 0 auto;
+  right: 0;
+  
+}
+.bgCircle {
+  width: 50rem;
+  height: 50rem;
+  top: -15%;
+  animation: rotateCircle2 5s linear infinite;
+}
+.bgCircle2 {
+  width: 80rem;
+  height: 80rem;
+  top: -53%;
+  animation: rotateCircle3 5s linear infinite;
+}
+@keyframes rotateCircle2{
+  100%{
+    transform: rotate(10deg);
+  }
+}
+@keyframes rotateCircle3{
+  100%{
+    transform: rotate(-10deg);
+  }
 }

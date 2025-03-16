@@ -86,7 +86,7 @@
 
     <main>
 
-        <section class="primaryBanner pdng pt-0">
+        <section class="primaryBanner pdng pt-0  aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
             <div class="container">
                 <div class="align-items-center justify-content-between row">
                     <div class="col-lg-5 col-md-12 col-sm-12">
@@ -94,7 +94,7 @@
                             <h3 class="bannerHeading">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, consectetur.</h3>
                             <p class="bannerDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, sed corporis reiciendis nam itaque possimus quae quis! Enim, corrupti eius?</p>
                             <div class="bannerBtns d-flex justify-content-start align-items-center gap-3">
-                                <a href="#!" class="bannerLink getQuote">Get an esimated quote</a>
+                                <a href="#!" class="bannerLink getQuote" data-bs-toggle="modal" data-bs-target="#CtaModalFOrm">Get an esimated quote</a>
                                 <a href="#!" class="bannerLink schCall">Schedule call</a>
                             </div>
                         </div>
@@ -109,14 +109,14 @@
         </section>
 
         <!-- About us -->
-        <section class="aboutus pdng">
+        <section class="aboutus pdng pb-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
             <div class="container">
                 <div class="titleBox text-center">
                     <h2>What is the terms life insurance<br>with health benefits?</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi facilis possimus tenetur mollitia porro exercitationem similique.</p>
                 </div>
 
-                <div class="row align-items-center">
+                <div class="row align-items-center ">
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="aboutLabelCard">
                             <div class="aboutLabel text-end d-flex justify-content-end align-items-center position-relative">
@@ -125,7 +125,8 @@
                                     <p>Innovative solutions designed to accelerate product development and enhance user experience.</p>
                                 </div>
                                 <div class="aboutLabelIcon">
-                                    <i class="bi bi-code-slash"></i>
+                                    <!-- <i class="bi bi-code-slash"></i> -->
+                                    <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
                                 </div>
                             </div>
                             <div class="aboutLabel text-end d-flex justify-content-end align-items-center position-relative">
@@ -134,7 +135,8 @@
                                     <p>Harness the power of artificial intelligence and machine learning to drive automation, insights, and intelligent decision-making. </p>
                                 </div>
                                 <div class="aboutLabelIcon">
-                                    <i class="bi bi-code-slash"></i>
+                                    <!-- <i class="bi bi-code-slash"></i> -->
+                                    <img src="assets/img/002-electronic-accessory.png" class="w-100 h-100 object-contain" alt="">
                                 </div>
                             </div>
                             <div class="aboutLabel text-end d-flex justify-content-end align-items-center position-relative">
@@ -143,7 +145,8 @@
                                     <p>Automate repetitive tasks with Robotic Process Automation (RPA) for increased efficiency and accuracy.</p>
                                 </div>
                                 <div class="aboutLabelIcon">
-                                    <i class="bi bi-code-slash"></i>
+                                    <!-- <i class="bi bi-code-slash"></i> -->
+                                    <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
                                 </div>
                             </div>
                         </div>
@@ -159,7 +162,8 @@
                         <div class="aboutLabelCard">
                             <div class="aboutLabel text-start d-flex justify-content-start align-items-center position-relative">
                                 <div class="aboutLabelIcon">
-                                    <i class="bi bi-code-slash"></i>
+                                    <!-- <i class="bi bi-code-slash"></i> -->
+                                    <img src="assets/img/001-disruptive-innovation.png" class="w-100 h-100 object-contain" alt="">
                                 </div>
                                 <div class="aboutLabelInfo ps-3">
                                     <h3>Integrated solutions</h3>
@@ -168,7 +172,8 @@
                             </div>
                             <div class="aboutLabel text-start d-flex justify-content-start align-items-center position-relative">
                                 <div class="aboutLabelIcon">
-                                    <i class="bi bi-code-slash"></i>
+                                    <!-- <i class="bi bi-code-slash"></i> -->
+                                    <img src="assets/img/002-analytical.png" class="w-100 h-100 object-contain" alt="">
                                 </div>
                                 <div class="aboutLabelInfo ps-3">
                                     <h3>Business Tool</h3>
@@ -177,7 +182,8 @@
                             </div>
                             <div class="aboutLabel text-start d-flex justify-content-start align-items-center position-relative">
                                 <div class="aboutLabelIcon">
-                                    <i class="bi bi-code-slash"></i>
+                                    <!-- <i class="bi bi-code-slash"></i> -->
+                                    <img src="assets/img/003-secure.png" class="w-100 h-100 object-contain" alt="">
                                 </div>
                                 <div class="aboutLabelInfo ps-3">
                                     <h3>Server & Security</h3>
@@ -190,8 +196,229 @@
             </div>
         </section>
 
-        
-        <section class="service1__padding technologiesSec " style="background-image: url('/assets/img/technologies/techBG.svg');">
+
+        <!-- Product Card productSec-->
+        <section class="service1__padding  overflow-hidden position-relative aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+            <!-- <img src="/assets/img/mapGLobe.svg" alt="" class="glbBG"> -->
+            <div class="container">
+                 
+
+                <div class="titleBox text-center">
+                    <h2>Our Products</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi facilis possimus tenetur mollitia porro exercitationem similique.</p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="projectShowcase">
+                            <!-- <ul class="nav nav-pills mb-5 justify-content-center prjctShowMain" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one" aria-selected="false" tabindex="-1">Ecommerce</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link active" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two" type="button" role="tab" aria-controls="pills-two" aria-selected="true">Healthcare</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                  <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three" aria-selected="false" tabindex="-1">ERP</button>
+                                </li>
+                              </ul> -->
+                              <div class="tab-content" id="pills-tabContent">
+                                <!-- <div class="tab-pane fade" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+                                    <div class="productsInnertab">
+                                        <div class="row align-items-start">
+                                            <div class="col-lg-3 col-md-3">
+                                                <h3 class="prjctShowTitle">Features</h3>
+                                                <div class="nav flex-column nav-pills  prjctShowInner position-relative" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                    
+                                                    <button class="nav-link active" id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-controls="v-pills-one" aria-selected="true">Live Field Agent Tracking</button>
+                                                    <button class="nav-link" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-controls="v-pills-two" aria-selected="false" tabindex="-1">Real Time Shipment Updates</button>
+                                                    <button class="nav-link" id="v-pills-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-controls="v-pills-three" aria-selected="false" tabindex="-1">Push Notifications</button>
+                                                    <button class="nav-link" id="v-pills-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four" aria-selected="false" tabindex="-1">Chat &amp; Bots</button>
+                                                    <button class="nav-link" id="v-pills-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-five" type="button" role="tab" aria-controls="v-pills-five" aria-selected="false" tabindex="-1">Real Time Messaging</button>
+                                                    <button class="nav-link" id="v-pills-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-six" type="button" role="tab" aria-controls="v-pills-six" aria-selected="false" tabindex="-1">Multi User Collaboration</button>
+                                                    <button class="nav-link" id="v-pills-seven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-seven" type="button" role="tab" aria-controls="v-pills-seven" aria-selected="false" tabindex="-1">Custom Video Meeting Interface</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
+                                              <div class="tab-pane fade active show" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-one-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="/assets/img/project/project-04.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-two-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="/assets/img/project/project-04.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-three-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="/assets/img/project/project-04.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="/assets/img/project/project-04.png" alt="">
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div> -->
+                                <div class="tab-pane fade active show" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+                                    <div class="productsInnertab">
+                                        <div class="row align-items-start">
+                                            <div class="col-lg-3 col-md-3">
+                                                <h3 class="prjctShowTitle">Features</h3>
+                                                <div class="nav flex-column nav-pills  prjctShowInner position-relative" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                        
+                                                    <button class="nav-link active" id="v-pills-two-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two-one" type="button" role="tab" aria-controls="v-pills-two-one" aria-selected="false" tabindex="-1">Auditing</button>
+                                                    <button class="nav-link" id="v-pills-two-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two-two" type="button" role="tab" aria-controls="v-pills-two-two" aria-selected="false" tabindex="-1">Audit Queue</button>
+                                                    <button class="nav-link" id="v-pills-two-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two-three" type="button" role="tab" aria-controls="v-pills-two-three" aria-selected="false" tabindex="-1">Dynamic Headers Configuration</button>
+                                                    <button class="nav-link " id="v-pills-two-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two-four" type="button" role="tab" aria-controls="v-pills-two-four" aria-selected="true">Leader’s Landing Dashboard</button>
+                                                    <button class="nav-link" id="v-pills-two-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two-five" type="button" role="tab" aria-controls="v-pills-two-five" aria-selected="false" tabindex="-1">Multiple Role’s Switch</button>
+                                                    <button class="nav-link" id="v-pills-two-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two-six" type="button" role="tab" aria-controls="v-pills-two-six" aria-selected="false" tabindex="-1">Report’s Dashboard</button>
+                                                    <button class="nav-link" id="v-pills-two-seven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two-seven" type="button" role="tab" aria-controls="v-pills-two-seven" aria-selected="false" tabindex="-1">Statistically Valid Sample Configuration</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
+                                              <div class="tab-pane active show" id="v-pills-two-one" role="tabpanel" aria-labelledby="v-pills-two-one-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="assets/img/product/audit-detail.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane" id="v-pills-two-two" role="tabpanel" aria-labelledby="v-pills-two-two-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="assets/img/product/auditor-queue.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane" id="v-pills-two-three" role="tabpanel" aria-labelledby="v-pills-two-three-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="assets/img/product/dynamic-inventory-load.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane" id="v-pills-two-four" role="tabpanel" aria-labelledby="v-pills-two-four-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="assets/img/product/Leader-landing-page.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane" id="v-pills-two-five" role="tabpanel" aria-labelledby="v-pills-two-five-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="assets/img/product/Multi-role-assign.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane" id="v-pills-two-six" role="tabpanel" aria-labelledby="v-pills-two-six-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="assets/img/product/reports-dashboard.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane" id="v-pills-two-seven" role="tabpanel" aria-labelledby="v-pills-two-seven-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="assets/img/product/svs-sampling.png" alt="">
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+                                    <div class="productsInnertab">
+                                        <div class="row align-items-start">
+                                            <div class="col-lg-3 col-md-3">
+                                                <h3 class="prjctShowTitle">Features</h3>
+                                                <div class="nav flex-column nav-pills  prjctShowInner position-relative" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                    
+                                                    <button class="nav-link active" id="v-pills-three-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-one" type="button" role="tab" aria-controls="v-pills-three-one" aria-selected="true">Live Field Agent Tracking</button>
+                                                    <button class="nav-link" id="v-pills-three-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-two" type="button" role="tab" aria-controls="v-pills-three-two" aria-selected="false" tabindex="-1">Real Time Shipment Updates</button>
+                                                    <button class="nav-link" id="v-pills-three-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-three" type="button" role="tab" aria-controls="v-pills-three-three" aria-selected="false" tabindex="-1">Push Notifications</button>
+                                                    <button class="nav-link" id="v-pills-three-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-four" type="button" role="tab" aria-controls="v-pills-three-four" aria-selected="false" tabindex="-1">Chat &amp; Bots</button>
+                                                    <button class="nav-link" id="v-pills-three-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-five" type="button" role="tab" aria-controls="v-pills-three-five" aria-selected="false" tabindex="-1">Real Time Messaging</button>
+                                                    <button class="nav-link" id="v-pills-three-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-six" type="button" role="tab" aria-controls="v-pills-three-six" aria-selected="false" tabindex="-1">Multi User Collaboration</button>
+                                                    <button class="nav-link" id="v-pills-three-seven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-seven" type="button" role="tab" aria-controls="v-pills-three-seven" aria-selected="false" tabindex="-1">Custom Video Meeting Interface</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
+                                              <div class="tab-pane fade show active" id="v-pills-three-one" role="tabpanel" aria-labelledby="v-pills-three-one-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="/assets/img/project/project-04.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="v-pills-three-two" role="tabpanel" aria-labelledby="v-pills-three-two-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="/assets/img/project/project-04.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="v-pills-three-three" role="tabpanel" aria-labelledby="v-pills-three-three-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="/assets/img/project/project-04.png" alt="">
+                                                </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="v-pills-three-four" role="tabpanel" aria-labelledby="v-pills-three-four-tab">
+                                                <div class="prjcyImg">
+                                                    <img src="/assets/img/project/project-04.png" alt="">
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                </div> -->
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Product Card -->
+
+        <!-- Jarwiz Showcase -->
+         <section class="showCaseProduct pdng aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+            <div class="titleBox text-center">
+                <h2>Jarwiz Features</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 col-md-12">
+                        <div class="d-flex align-items-start">
+                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                <button class="nav-link active" id="v-pills-tab1" data-bs-toggle="pill" data-bs-target="#v-pills-content1" type="button" role="tab" aria-controls="v-pills-content1" aria-selected="true">Smart Case Routing</button>
+                                <button class="nav-link" id="v-pills-tab2" data-bs-toggle="pill" data-bs-target="#v-pills-content2" type="button" role="tab" aria-controls="v-pills-content2" aria-selected="false">Calibration</button>
+                                <button class="nav-link" id="v-pills-tab3" data-bs-toggle="pill" data-bs-target="#v-pills-content3" type="button" role="tab" aria-controls="v-pills-content3" aria-selected="false">Intelligent Sampling</button>
+                                <button class="nav-link" id="v-pills-tab4" data-bs-toggle="pill" data-bs-target="#v-pills-content4" type="button" role="tab" aria-controls="v-pills-content4" aria-selected="false">Ruled Based Audits</button>
+                                <button class="nav-link" id="v-pills-tab5" data-bs-toggle="pill" data-bs-target="#v-pills-content5" type="button" role="tab" aria-controls="v-pills-content5" aria-selected="false">Digital Cockpit</button>
+                                <button class="nav-link" id="v-pills-tab6" data-bs-toggle="pill" data-bs-target="#v-pills-content6" type="button" role="tab" aria-controls="v-pills-content6" aria-selected="false">RCM aligned Error Parameters</button>
+                                <button class="nav-link" id="v-pills-tab7" data-bs-toggle="pill" data-bs-target="#v-pills-content7" type="button" role="tab" aria-controls="v-pills-content7" aria-selected="false">Process Knowledge Test</button>
+                                <button class="nav-link" id="v-pills-tab8" data-bs-toggle="pill" data-bs-target="#v-pills-content8" type="button" role="tab" aria-controls="v-pills-content8" aria-selected="false">Root Cause Analysis</button>
+                                <button class="nav-link" id="v-pills-tab9" data-bs-toggle="pill" data-bs-target="#v-pills-content9" type="button" role="tab" aria-controls="v-pills-content9" aria-selected="false">Error Source Tagging</button>
+                                <button class="nav-link" id="v-pills-tab10" data-bs-toggle="pill" data-bs-target="#v-pills-content10" type="button" role="tab" aria-controls="v-pills-content10" aria-selected="false">Personalised Agent Feedback</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="pdShocaseDesc">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-content1" role="tabpanel" aria-labelledby="v-pills-tab1">Home Content</div>
+                                <div class="tab-pane fade" id="v-pills-content2" role="tabpanel" aria-labelledby="v-pills-tab2">Profile Content</div>
+                                <div class="tab-pane fade" id="v-pills-content3" role="tabpanel" aria-labelledby="v-pills-tab3">Messages Content</div>
+                                <div class="tab-pane fade" id="v-pills-content4" role="tabpanel" aria-labelledby="v-pills-tab4">Settings Content</div>
+                                <div class="tab-pane fade" id="v-pills-content5" role="tabpanel" aria-labelledby="v-pills-tab5">Notifications Content</div>
+                                <div class="tab-pane fade" id="v-pills-content6" role="tabpanel" aria-labelledby="v-pills-tab6">Support Content</div>
+                                <div class="tab-pane fade" id="v-pills-content7" role="tabpanel" aria-labelledby="v-pills-tab7">FAQ Content</div>
+                                <div class="tab-pane fade" id="v-pills-content8" role="tabpanel" aria-labelledby="v-pills-tab8">About Content</div>
+                                <div class="tab-pane fade" id="v-pills-content9" role="tabpanel" aria-labelledby="v-pills-tab9">Contact Content</div>
+                                <div class="tab-pane fade" id="v-pills-content10" role="tabpanel" aria-labelledby="v-pills-tab10">Help Content</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+         </section>
+
+        <!-- Tech stack -->
+        <section class="service1__padding technologiesSec overflow-hidden aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+            <div class="bgCircle"></div>
+            <div class="bgCircle2"></div>
             <div class="container">
                 <div class="row justify-content-center " data-aos="fade-up"  data-aos-duration="500">
                     <div class="col-lg-8">
@@ -257,64 +484,8 @@
                 </div>
             </div>
         </section>
-        <section class="service1__padding stckItSec position-relative d-none">
-            <div class="container">
-                <div class="row justify-content-center mb-40" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
-                    <div class="col-lg-8">
-                        <div class="title text-center" >
-                            <h2>How we stack it up</h2>
-                            <p>See how we turn your ideas into results. Our comprehensive approach ensures every step is strategically planned and executed to bring your vision to life.</p>
-                        </div>
-                    </div>
-                </div>  
-                <div class="row align-items-center mb-40" >
-                    <div class="col-lg-6 col-md-6 col-sm-12 pe-lg-5"  data-aos="fade-right" data-aos-delay="100" data-aos-duration="500">
-                        <div class="stckItSecImg position-relative">
-                            <img src="assets/img/User-flow-amico.svg" alt="Image not found">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 ps-lg-5"  data-aos="fade-left" data-aos-delay="100" data-aos-duration="500">
-                        <div class="stckItInfo position-relative">
-                            <h4>Our design process</h4>
-                            <p>We believe that great design is key to user satisfaction and business success. Our design process begins with a deep understanding of your business, it's users, and the goals. We conduct thorough research to gain insights into user behaviour, ensuring our design solutions are perfectly aligned with your business needs.</p>
-                            <p>We refine our prototypes based on your feedback, ensuring that the final design not only looks great but also functions flawlessly too. This approach ensures that our designs resonate with your users and effectively support your business objectives.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center mb-40" >
-                    
-                    <div class="col-lg-6 col-md-6 col-sm-12 ps-lg-5"  data-aos="fade-right" data-aos-delay="100" data-aos-duration="500">
-                        <div class="stckItInfo position-relative">
-                            <h4>Our development process</h4>
-                            <p>At marvelsync, we transform your ideas into robust, scalable software solutions through a meticulous development process. We start with our team closely collaborating with you to understand your requirements thoroughly, ensuring that every feature aligns with your business objectives.</p>
-                            <p>Our designers create intuitive user interfaces that enhance the user experience while seamlessly integrating with your existing systems. Our developers aim not just to write clean, efficient, and scalable code but also provide ongoing support to keep everything running perfectly</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 pe-lg-5"  data-aos="fade-left" data-aos-delay="100" data-aos-duration="500">
-                        <div class="stckItSecImg position-relative">
-                            <img src="assets/img/App-development-amico.svg" alt="Image not found">
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row align-items-center mb-40" >
-                    
-                    
-                    <div class="col-lg-6 col-md-6 col-sm-12 pe-lg-5"  data-aos="fade-right" data-aos-delay="100" data-aos-duration="500">
-                        <div class="stckItSecImg position-relative">
-                            <img src="assets/img/Cloud-hosting-amico.svg" alt="Image not found">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 ps-lg-5"  data-aos="fade-left" data-aos-delay="100" data-aos-duration="500">
-                        <div class="stckItInfo position-relative">
-                            <h4>Our deployment process</h4>
-                            <p>Our deployment process is designed to carefully transition your project from development to a fully operational state, minimizing downtime and maximizing efficiency.</p>
-                            <p>We deploy the software with precision, continuously monitoring the process to address any issues in real time. Our team remains dedicated post-deployment, providing ongoing support to ensure that your software continues to operate seamlessly. This approach guarantees that your project is not only successfully launched but also runs reliably.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+
     
     </main>
 
@@ -334,12 +505,12 @@
                     <div class="footerCard footerCardTwo">
                         <h3>Our Services</h3>
                         <div class="footerLinks">
-                            <a href="#!">Content management solutions</a>
-                            <a href="#!">E-commerce solutions</a>
-                            <a href="#!">ONDC solutions</a>
-                            <a href="#!">Seo and online marketing</a>
-                            <a href="#!">Mobile application</a>
-                            <a href="#!">AI solutions</a>
+                            <a href="#!">Product Engineering</a>
+                            <a href="#!">AI/ML</a>
+                            <a href="#!">RPA</a>
+                            <a href="#!">Integrated solutions</a>
+                            <a href="#!">Business Tool</a>
+                            <a href="#!">Server & Security</a>
                         </div>
                     </div>
                 </div>
