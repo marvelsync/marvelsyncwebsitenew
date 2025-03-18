@@ -80,9 +80,14 @@ font-family: 'Poppins', sans-serif;
 .text-primary-{
   color : var(--primary_color_01);
 }
-
+.text-primary-bg{
+  background : var(--primary_color_01);
+}
 .text-secondary-{
   color : var(--secondary_color_01)!important;
+}
+.text-secondary-bg{
+background: var(--secondary_color_01)!important;
 }
 
 html {
@@ -171,11 +176,11 @@ body {
   background-color: #f6f4f0;
 }
 
-p {
+p, ul li, ol li {
   /* font-family: var(--font_primary); */
-  font-weight: 500;
+  font-weight: 300;
   color: var(--font_color_01);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.9;
   margin-bottom: 0;
 }
@@ -9690,7 +9695,7 @@ footer {
 }
 .prjcyImg {
   overflow: hidden;
-  height: 480px;
+  height: 510px;
   border: 1px solid rgb(246, 246, 246);
   padding: 18px 20px;
   background-color: rgb(255, 255, 255);
@@ -10272,11 +10277,11 @@ footer > .container {
 }
 
 .titleBox p {
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 0;
-  line-height: 33px;
+  line-height: 28px;
   margin-top: 1rem;
-  color: #727272;
+  color: var(--font_color_01);
 }
 
 .object-contain{
@@ -10346,6 +10351,7 @@ footer > .container {
 }
 .aboutLabelInfo p {
   line-height: 22px;
+  font-size: 14px;
 }
 
 .aboutLabel{
@@ -10499,8 +10505,7 @@ footer > .container {
 }
 
 .about_header_main .about_heading {
-  max-width: 450px;
-  font-size: 24px;
+  font-size: 40px;
 }
 
 .about_icon span {
@@ -10510,4 +10515,96 @@ footer > .container {
 
 .about_content_box_all {
   padding: 28px;
+}
+
+.productTitle {
+  width: fit-content;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 0rem 0rem 1rem;
+  color: var(--primary_color_01) !important;
+  /* padding: 10px 22px; */
+  /* border-radius: 40px; */
+  /* background-color: #fff; */
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+.marvelstory{
+  background-image: url('../img/yyg8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.marvelstory::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #f6f4f1cc;
+  backdrop-filter: blur(1px);
+}
+
+.marvelstory .container{
+  position: relative;
+  z-index: 5;
+}
+
+.showCaseFeature .nav-link {
+  font-size: 16px;
+    text-align: left;
+    color: #7a7a7a;
+    border-bottom: 0px solid transparent;
+    margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    filter: grayscale(1) opacity(0.4);
+    font-weight: 600;
+    border-radius: 12px 0px 0px 12px;
+    padding: 10px 10px;
+    width: 106%;
+}
+.showCaseFeature .nav-link .aboutLabelIcon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 12px;
+}
+.showCaseFeature .nav-link.active {
+  background-color: #ffffff;
+  color: #012c6c;
+  filter: grayscale(0) opacity(1);
+  /* transform: scale(1); */
+  border-bottom-color: #012c6c;
+}
+.showCaseFeature {
+  border-right: 1px solid #e8e8e8dd;
+  padding-right: 2rem;
+}
+
+.showCaseFeature .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -13px;
+  background-color: #949494;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 1;
+  transition: 0.1s linear;
+  transform: scale(0.7);
+}
+.showCaseFeature .nav-link.active::after {
+  transform: scale(1);
+  background-color: #012c6c;
+}
+.revImage{
+  position: sticky;
+  top: 0px;
 }
