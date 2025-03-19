@@ -1025,7 +1025,7 @@
         let targetTab = document.querySelector(targetId);
 
         // Hide all tab contents and show the active one
-        document.querySelectorAll(".tab-pane").forEach(tabContent => tabContent.classList.remove("show", "active"));
+        document.querySelectorAll(".mainCenterInner .tab-pane").forEach(tabContent => tabContent.classList.remove("show", "active"));
         targetTab.classList.add("show", "active");
 
         // Move to the next tab, loop back to first if at the end
