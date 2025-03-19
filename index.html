@@ -1207,9 +1207,15 @@
                 let targetId = tabs[currentIndex].getAttribute("data-bs-target");
                 let targetTab = document.querySelector(targetId);
 
+<<<<<<< HEAD
                 // Hide all tab contents and show the active one
                 document.querySelectorAll(".tab-pane").forEach(tabContent => tabContent.classList.remove("show", "active"));
                 targetTab.classList.add("show", "active");
+=======
+        // Hide all tab contents and show the active one
+        document.querySelectorAll(".mainCenterInner .tab-pane").forEach(tabContent => tabContent.classList.remove("show", "active"));
+        targetTab.classList.add("show", "active");
+>>>>>>> 2bee7423d540c7fc53cf513ec5d189e3c2490606
 
                 // Move to the next tab, loop back to first if at the end
                 currentIndex = (currentIndex + 1) % tabs.length;
