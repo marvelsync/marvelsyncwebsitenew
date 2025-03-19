@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
+
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 
@@ -92,14 +93,14 @@
     <main>
         <section class="marvelstory overflow-hidden pdng position-relative">
             <div class="container">
-                <div class="titleBox text-center section_title_all text-center w-100 mb-0">
+                <div class="titleBox section_title_all w-100 mb-0">
         <section class="primaryBanner pdng pt-0  aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
             <div class="container">
                 <div class="align-items-center justify-content-between row">
                     <div class="col-lg-5 col-md-12 col-sm-12">
                         <div class="bannerCardmain">
                             <h3 class="bannerHeading">Driving Better Outcomes Through Intelligent Solutions.</h3>
-                            <p class="bannerDesc">At MarvelSync, we harness the power of advanced technology and data-driven insights to create intelligent solutions that streamline operations, enhance patient care, and drive measurable improvements across the healthcare ecosystem.</p>
+                            <p class="bannerDesc my-3">At MarvelSync, we harness the power of advanced technology and data-driven insights to create intelligent solutions that streamline operations, enhance patient care, and drive measurable improvements across the healthcare ecosystem.</p>
                             <div class="bannerBtns d-flex justify-content-start align-items-center gap-3">
                                 <a href="#!" class="bannerLink getQuote" data-bs-toggle="modal" data-bs-target="#CtaModalFOrm">Get an esimated quote</a>
                                 <a href="#!" class="bannerLink schCall">Schedule call</a>
@@ -120,8 +121,8 @@
         <!-- <section class="marvelstory overflow-hidden pdng position-relative">
             <div class="container"> -->
                 <div class="titleBox text-center section_title_all text-center w-100 mb-0 mt_60 d-flex justify-content-center">
-                    <div class="card border-0 shadow-box story">
-                        <div class="card-body">
+                    <div class="card border-0 shadow-box story ">
+                        <div class="card-body p-5">
                             <h2>The <span class="text-secondary-">Marvel</span><span class="text-primary-">Sync</span> Tech Story</span></h2>
                             <p class="section_subtitle mx-auto ">Founded in 2024, MarvelSync Tech Private Limited brings years of IT expertise to transform healthcare through intelligent, innovative solutions. <br>With a proven track record across diverse industries, we’ve turned our focus to solving the inefficiencies that hinder healthcare providers from delivering exceptional care.</p>
                         </div>
@@ -204,7 +205,7 @@
             </ul>
         </section>
         <!-- About us -->
-        <section class="marvelstory overflow-hidden pdng position-relative">
+        <section class="marvelstory overflow-hidden pdng position-relative bg-white">
             <div class="container">
                 <div class="titleBox text-center section_title_all text-center w-100 mb-0">
 
@@ -212,7 +213,7 @@
         <section class="aboutus pdng pb-0 pt-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
             <div class="container">
                 <div class="card border-0 shadow-box">
-                    <div class="card-body">
+                    <div class="card-body p-5">
                         <div class="titleBox text-center">
                             <h2>What We Offer</h2>
                             <p>At MarvelSync, we are committed to transforming healthcare through innovative, intelligent, and user-friendly software solutions. Our mission is to empower healthcare providers, administrators, and patients with the tools they need to achieve better outcomes, streamline operations, and enhance the overall quality of care.</p>
@@ -498,132 +499,144 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
             </div>
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-5 col-md-12">
-                            <div class="nav flex-column nav-pills showCaseFeature" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                <button class="nav-link active" id="v-pills-tab1" data-bs-toggle="pill" data-bs-target="#v-pills-content1" type="button" role="tab" aria-controls="v-pills-content1" aria-selected="true">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                <div class="featureMainCard">
+                    <div class="featureInnerCard position-relative">
+                        <!-- main circle -->
+                        <div class="mainCenter text-secondary-bg position-relative"> 
+                            <ul class="nav featuredPills nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link active" id="pills-ftone-tab" data-bs-toggle="pill" data-bs-target="#pills-ftone" type="button" role="tab" aria-controls="pills-ftone" aria-selected="true">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Smart Case Routing</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-fttwo-tab" data-bs-toggle="pill" data-bs-target="#pills-fttwo" type="button" role="tab" aria-controls="pills-fttwo" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Calibration</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-ftthree-tab" data-bs-toggle="pill" data-bs-target="#pills-ftthree" type="button" role="tab" aria-controls="pills-ftthree" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Intelligent<br>Sampling</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-ftfour-tab" data-bs-toggle="pill" data-bs-target="#pills-ftfour" type="button" role="tab" aria-controls="pills-ftfour" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Ruled Based Audits</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-ftfive-tab" data-bs-toggle="pill" data-bs-target="#pills-ftfive" type="button" role="tab" aria-controls="pills-ftfive" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Digital Cockpit</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-ftsix-tab" data-bs-toggle="pill" data-bs-target="#pills-ftsix" type="button" role="tab" aria-controls="pills-ftsix" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>RCM aligned<br>Error Parameters</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-ftseven-tab" data-bs-toggle="pill" data-bs-target="#pills-ftseven" type="button" role="tab" aria-controls="pills-ftseven" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Process Knowledge<br>Test</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-fteight-tab" data-bs-toggle="pill" data-bs-target="#pills-fteight" type="button" role="tab" aria-controls="pills-fteight" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Root Cause<br>Analysis</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-ftnine-tab" data-bs-toggle="pill" data-bs-target="#pills-ftnine" type="button" role="tab" aria-controls="pills-ftnine" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Error Source<br>Tagging</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item featuredPillsitems" role="presentation">
+                                    <button class="nav-link" id="pills-ftten-tab" data-bs-toggle="pill" data-bs-target="#pills-ftten" type="button" role="tab" aria-controls="pills-ftten" aria-selected="false">
+                                        <div class="aboutLabelIcon">
+                                            <img src="assets/img/001-technology-product.png" class="w-100 h-100 object-contain" alt="">
+                                        </div>
+                                        <span>Personalised Agent<br>Feedback</span>
+                                    </button>
+                                </li>
+                            </ul>
+                            <div class="mainCenterInner overflow-hidden">
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-ftone" role="tabpanel" aria-labelledby="pills-ftone-tab">
+                                        <h3 class="fs-5 text-center text-white">tyui</h3>
+                                        <p class="text-center text-white">1. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti.</p>
                                     </div>
-                                    <span>Smart Case Routing</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab2" data-bs-toggle="pill" data-bs-target="#v-pills-content2" type="button" role="tab" aria-controls="v-pills-content2" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                                    <div class="tab-pane fade" id="pills-fttwo" role="tabpanel" aria-labelledby="pills-fttwo-tab">
+                                        <p class="text-center text-white">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti.</p>
                                     </div>
-                                    <span>Calibration</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab3" data-bs-toggle="pill" data-bs-target="#v-pills-content3" type="button" role="tab" aria-controls="v-pills-content3" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                                    <div class="tab-pane fade" id="pills-ftthree" role="tabpanel" aria-labelledby="pills-ftthree-tab">
+                                        <p class="text-center text-white">3. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos deleniti.</p>
                                     </div>
-                                    <span>Intelligent Sampling</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab4" data-bs-toggle="pill" data-bs-target="#v-pills-content4" type="button" role="tab" aria-controls="v-pills-content4" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                                    <div class="tab-pane fade" id="pills-ftfour" role="tabpanel" aria-labelledby="pills-ftfour-tab">
+                                        <p class="text-center text-white">4. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum!</p>
                                     </div>
-                                    <span>Ruled Based Audits</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab5" data-bs-toggle="pill" data-bs-target="#v-pills-content5" type="button" role="tab" aria-controls="v-pills-content5" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                                    <div class="tab-pane fade" id="pills-ftfive" role="tabpanel" aria-labelledby="pills-ftfive-tab">
+                                        <p class="text-center text-white">5. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum!</p>
                                     </div>
-                                    <span>Digital Cockpit</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab6" data-bs-toggle="pill" data-bs-target="#v-pills-content6" type="button" role="tab" aria-controls="v-pills-content6" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                                    <div class="tab-pane fade" id="pills-ftsix" role="tabpanel" aria-labelledby="pills-ftsix-tab">
+                                        <p class="text-center text-white">6. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum!</p>
                                     </div>
-                                    <span>RCM aligned Error Parameters</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab7" data-bs-toggle="pill" data-bs-target="#v-pills-content7" type="button" role="tab" aria-controls="v-pills-content7" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                                    <div class="tab-pane fade" id="pills-ftseven" role="tabpanel" aria-labelledby="pills-ftseven-tab">
+                                        <p class="text-center text-white">7. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum!</p>
                                     </div>
-                                    <span>Process Knowledge Test</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab8" data-bs-toggle="pill" data-bs-target="#v-pills-content8" type="button" role="tab" aria-controls="v-pills-content8" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                                    <div class="tab-pane fade" id="pills-fteight" role="tabpanel" aria-labelledby="pills-fteight-tab">
+                                        <p class="text-center text-white">8. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum!</p>
                                     </div>
-                                    <span>Root Cause Analysis</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab9" data-bs-toggle="pill" data-bs-target="#v-pills-content9" type="button" role="tab" aria-controls="v-pills-content9" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
+                                    <div class="tab-pane fade" id="pills-ftnine" role="tabpanel" aria-labelledby="pills-ftnine-tab">
+                                        <p class="text-center text-white">9. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum!</p>
                                     </div>
-                                    <span>Error Source Tagging</span>
-                                </button>
-                                
-                                <button class="nav-link" id="v-pills-tab10" data-bs-toggle="pill" data-bs-target="#v-pills-content10" type="button" role="tab" aria-controls="v-pills-content10" aria-selected="false">
-                                    <div class="aboutLabelIcon">
-                                        <img src="assets/img/003-automation.png" class="w-100 h-100 object-contain" alt="">
-                                    </div>
-                                    <span>Personalised Agent Feedback</span>
-                                </button>
-                                
-                            </div>
-                    </div>
-                    <div class="col-lg-5 col-md-12">
-                        <div class="pdShocaseDesc">
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-content1" role="tabpanel" aria-labelledby="v-pills-tab1">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis pulvinar nisi, in varius risus elementum nec.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content2" role="tabpanel" aria-labelledby="v-pills-tab2">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget urna vitae risus laoreet feugiat.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content3" role="tabpanel" aria-labelledby="v-pills-tab3">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vel mauris vel justo pretium efficitur non et ligula.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content4" role="tabpanel" aria-labelledby="v-pills-tab4">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod orci in lorem hendrerit bibendum.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content5" role="tabpanel" aria-labelledby="v-pills-tab5">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt justo sed enim hendrerit consequat.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content6" role="tabpanel" aria-labelledby="v-pills-tab6">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent cursus metus non justo sagittis, vel blandit nisi luctus.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content7" role="tabpanel" aria-labelledby="v-pills-tab7">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla erat vel libero pulvinar scelerisque.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content8" role="tabpanel" aria-labelledby="v-pills-tab8">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum quam in diam consequat, id dignissim nulla facilisis.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content9" role="tabpanel" aria-labelledby="v-pills-tab9">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu orci tincidunt, fringilla ligula sed, pharetra quam.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="v-pills-content10" role="tabpanel" aria-labelledby="v-pills-tab10">
-                                    <div class="content-wrapper">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat volutpat. Vestibulum non lectus vel erat gravida convallis.</p>
+                                    <div class="tab-pane fade" id="pills-ftten" role="tabpanel" aria-labelledby="pills-ftten-tab">
+                                        <p class="text-center text-white">10. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Quos deleniti, perferendis nihil harum quia a necessitatibus ratione voluptate nisi et dicta sunt totam excepturi incidunt quod!
+                                            Cupiditate deleniti explicabo rerum!</p>
                                     </div>
                                 </div>
                                 
@@ -631,7 +644,6 @@
                         </div>
                     </div>
                 </div>
-                
             </div>
          </section>
 
@@ -978,6 +990,8 @@
     <script src="assets/js/gsap/ScrollToPlugin.min.js"></script>
     <script src="assets/js/home.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script> -->
+    
     <script>AOS.init();</script>
     <script>// Get the current year
         const currentYear = new Date().getFullYear();
@@ -994,46 +1008,53 @@
             });
         });
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    let tabs = document.querySelectorAll(".featuredPillsitems .nav-link");
+    let currentIndex = 0;
+    let intervalTime = 2000; // Switch every 3 seconds
+    let interval;
 
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-<script>
-    $(document).ready(function () {
-        let tabs = $(".showCaseFeature .nav-link"); // Select all tab buttons
-        let currentIndex = 0;
-        let intervalTime = 3000; // Change tab every 3 seconds
-        let interval;
+    function switchTab() {
+        // Remove "active" class from all tabs
+        tabs.forEach(tab => tab.classList.remove("active"));
 
-        function switchTab() {
-            tabs.eq(currentIndex).removeClass("active").attr("aria-selected", "false");
-            let targetTab = tabs.eq(currentIndex).data("bs-target");
+        // Activate the current tab
+        tabs[currentIndex].classList.add("active");
+        let targetId = tabs[currentIndex].getAttribute("data-bs-target");
+        let targetTab = document.querySelector(targetId);
 
-            $(targetTab).removeClass("show active"); // Hide current content
+        // Hide all tab contents and show the active one
+        document.querySelectorAll(".tab-pane").forEach(tabContent => tabContent.classList.remove("show", "active"));
+        targetTab.classList.add("show", "active");
 
-            currentIndex = (currentIndex + 1) % tabs.length; // Move to next tab (loop)
+        // Move to the next tab, loop back to first if at the end
+        currentIndex = (currentIndex + 1) % tabs.length;
+    }
 
-            tabs.eq(currentIndex).addClass("active").attr("aria-selected", "true");
-            let newTargetTab = tabs.eq(currentIndex).data("bs-target");
+    function startAutoSwitch() {
+        clearInterval(interval); // Clear previous interval to prevent duplicate timers
+        interval = setInterval(switchTab, intervalTime);
+    }
 
-            $(newTargetTab).addClass("show active"); // Show new content
-        }
-
-        function startAutoSwitch() {
-            interval = setInterval(switchTab, intervalTime);
-        }
-
-        function stopAutoSwitch() {
-            clearInterval(interval);
-        }
-
-        // Start switching when page loads
-        startAutoSwitch();
-
-        // Stop auto-switching when user interacts with a tab
-        tabs.on("click", function () {
-            stopAutoSwitch();
+    // Event listener for user click on a tab
+    tabs.forEach((tab, index) => {
+        tab.addEventListener("click", function () {
+            currentIndex = index; // Set the current index to the clicked tab
+            switchTab(); // Immediately switch to the clicked tab
+            startAutoSwitch(); // Restart auto-switching from the new index
         });
     });
-</script>
+
+    // Start automatic switching
+    startAutoSwitch();
+});
+
+    </script>
+
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
+
 </body>
 
 </html>
