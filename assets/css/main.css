@@ -76,7 +76,9 @@ font-family: 'Poppins', sans-serif;
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
-
+.fs-19{
+  font-size: 19px !important;
+}
 .text-primary- {
   color: var(--primary_color_01);
 }
@@ -188,7 +190,7 @@ ol li {
   /* font-family: var(--font_primary); */
   font-weight: 500;
   color: var(--font_color_01);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.9;
   margin-bottom: 0;
 }
@@ -10136,8 +10138,8 @@ footer>.container {
 }
 
 .bannerHeading {
-  font-size: 45px;
-  line-height: 56px;
+  font-size: 40px;
+  line-height: 54px;
 }
 
 .bannerDesc {
@@ -10266,8 +10268,8 @@ footer>.container {
 }
 
 .aboutLabelInfo p {
-  line-height: 22px;
-  font-size: 14px;
+  line-height: 25px;
+  font-size: 16px;
 }
 
 .aboutLabel {
@@ -10280,6 +10282,7 @@ footer>.container {
   width: 90%;
   margin-left: auto;
   height: 600px;
+  position: relative;
 }
 
 .aboutLabel.text-end::after {
@@ -10302,7 +10305,7 @@ footer>.container {
 .aboutLabel.text-end:first-child::before,
 .aboutLabel.text-start:first-child::before {
   top: 50%;
-  height: 148%;
+  height: 158%;
 }
 
 .aboutLabel.text-end:first-child::after,
@@ -10312,7 +10315,7 @@ footer>.container {
 }
 
 .aboutLabel.text-end:last-child::before {
-  height: 148%;
+  height: 158%;
   bottom: 50%;
 }
 
@@ -11026,7 +11029,7 @@ footer>.container {
 .featuredPillsitems .nav-link .aboutLabelIcon {
   width: 90px;
   height: 90px;
-  padding: 12px;
+  padding: 22px;
   transition: 0.3s linear;
 }
 
@@ -11107,3 +11110,49 @@ footer>.container {
 }
 
 /* Jarwiz showcase */
+
+.bannerImage::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 140px;
+  background-color: #f7f7f9;
+  right: -10px;
+  top: 140px;
+  filter: blur(4px);
+}
+.bannerImage::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 140px;
+  background-color: #f7f7f9;
+  left: -10px;
+  bottom: 130px;
+  filter: blur(4px);
+}
+
+.z-index-1{
+  z-index: 10;
+}
+.bannerSection {
+  margin-top: -5.5rem;
+  padding-top: 5.5rem;
+}
+.marvetTechCard {
+  transform: translateY(-110px);
+}
+.parabadge {
+  width: fit-content;
+  border-radius: 8px;
+}
+.container{
+  max-width: 97%;
+}
+.revCard {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 1.5rem;
+}
