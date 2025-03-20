@@ -10544,7 +10544,7 @@ footer>.container {
 }
 
 .main-container-j {
-  min-height: 600px;
+  min-height: 900px;
   display: flex;
   display: -webkit-flex;
   align-items: center;
@@ -10555,8 +10555,8 @@ footer>.container {
 
 .main-j {
   margin: 0px auto;
-  width: 1200px;
-  height: 1200px;
+  width: 800px;
+  height: 800px;
   position: relative;
 }
 
@@ -10591,8 +10591,8 @@ footer>.container {
 }
 
 .icon-block {
-  width: 64px;
-  height: 64px;
+  width: 80px;
+  height: 80px;
   position: absolute;
   border-radius: 50%;
   display: flex;
