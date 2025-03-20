@@ -10118,7 +10118,7 @@ footer>.container {
 } */
 
 .prjctShowTitle {
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 1.5rem;
   margin-left: -4px;
   color: #212529;
@@ -10894,13 +10894,10 @@ footer>.container {
 
 .w-14-46 {
   width: 20%;
-  height: 60px;
+  height: auto;
 }
 
-.w-16-46 {
-  width: 16%;
-  height: 60px;
-}
+
 
 .shadow-box {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
