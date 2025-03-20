@@ -10894,6 +10894,11 @@ footer>.container {
   height: 60px;
 }
 
+.w-16-46 {
+  width: 16%;
+  height: 60px;
+}
+
 .shadow-box {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
