@@ -363,9 +363,9 @@
         <!-- Jarwiz Showcase -->
         <section class="showCaseProduct pdng aos-init aos-animate" data-aos="fade-up" data-aos-delay="100"
             data-aos-duration="500">
-            <div class="titleBox text-center">
+            <div class="pb-4 text-center titleBox">
                 <div>
-                    <img src="assets/img/jarwiz-logo.jpg" alt="" class="w-14-46 img-fluid mx-auto d-block">
+                    <img src="assets/img/jarwiz-logo.png" alt="" class="w-14-46 img-fluid mx-auto d-block">
                 </div>
                 <p>A Complete Quality
                     Management Solution Designed
@@ -489,10 +489,36 @@
                                     </button>
                                 </li>
                             </ul>
-                            <div class="mainCenterInner overflow-hidden">
+                            <div class="mainCenterInner">
+                                <svg width="360" height="360" class="fillOutline">
+                                    <circle class="tabcirclebg" 
+                                            cx="190" cy="190" r="160"
+                                            fill="none"
+                                            stroke="#022c6c"   
+                                            stroke-width="4"
+                                            stroke-dasharray="1200"
+                                     />
+                                    <circle id="my-circle" class="fill" 
+                                            cx="190" cy="190" r="160"
+                                            fill="none"
+                                            stroke="#c41c44"   
+                                            stroke-width="4"
+                                            stroke-dasharray="1200"
+                                     />
+                                    
+                                    <animate 
+                                      xlink:href="#my-circle"
+                                      attributeName="stroke-dashoffset"
+                                      from="1200"
+                                      to="0" 
+                                      dur="3s"
+                                      repeatCount="indefinite"
+                                      />
+                                </svg>
                                 <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade show active" id="pills-ftone" role="tabpanel"
                                         aria-labelledby="pills-ftone-tab">
+                                        
                                         <p class="text-center text-white" style="font-size: 19px;">AI-powered routing of cases to the right auditor based on the multiple parameters and priorities.</p>
                                     </div>
                                     <div class="tab-pane fade" id="pills-fttwo" role="tabpanel"
@@ -546,263 +572,265 @@
         </section>
 
         <!-- Product Card productSec-->
-        <section class=" position-relative aos-init aos-animate" data-aos="fade-up"
+        <section class="pdng position-relative aos-init aos-animate" data-aos="fade-up"
             data-aos-delay="100" data-aos-duration="500">
             <!-- <img src="/assets/img/mapGLobe.svg" alt="" class="glbBG"> -->
-           <div class="card shadow-box ">
-                <div class="card-body p-5" style="background-color: antiquewhite;">
+           
 
-            <div class="container">
+                <div class="container">
 
 
-                <div class="titleBox text-center">
-                    <div>
-                        <img src="assets/img/jarwiz-logo.jpg" alt="" class="w-14-46 img-fluid mx-auto d-block">
-                        <h2 class="mt-3">Capabilities</h2>
+                    <div class="titleBox text-center">
+                        <div>
+                            <img src="assets/img/jarwiz-logo.png" alt="" class="w-14-46 img-fluid mx-auto d-block">
+                            <h2 class="mt-3">Capabilities</h2>
+                        </div>
                     </div>
-                </div>
 
-                <div class="row justify-content-center">
-                    <div class="col-lg-10">
-                        <div class="projectShowcase">
-                            <!-- <ul class="nav nav-pills mb-5 justify-content-center prjctShowMain" id="pills-tab" role="tablist">
-                                <li class="nav-item" role="presentation">
-                                  <button class="nav-link" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one" aria-selected="false" tabindex="-1">Ecommerce</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                  <button class="nav-link active" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two" type="button" role="tab" aria-controls="pills-two" aria-selected="true">Healthcare</button>
-                                </li>
-                                <li class="nav-item" role="presentation">
-                                  <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three" aria-selected="false" tabindex="-1">ERP</button>
-                                </li>
-                              </ul> -->
-                            <div class="tab-content" id="pills-tabContent">
-                                <!-- <div class="tab-pane fade" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
-                                    <div class="productsInnertab">
-                                        <div class="row align-items-start">
-                                            <div class="col-lg-3 col-md-3">
-                                                <h3 class="prjctShowTitle">Features</h3>
-                                                <div class="nav flex-column nav-pills  prjctShowInner position-relative" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                                    
-                                                    <button class="nav-link active" id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-controls="v-pills-one" aria-selected="true">Live Field Agent Tracking</button>
-                                                    <button class="nav-link" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-controls="v-pills-two" aria-selected="false" tabindex="-1">Real Time Shipment Updates</button>
-                                                    <button class="nav-link" id="v-pills-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-controls="v-pills-three" aria-selected="false" tabindex="-1">Push Notifications</button>
-                                                    <button class="nav-link" id="v-pills-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four" aria-selected="false" tabindex="-1">Chat &amp; Bots</button>
-                                                    <button class="nav-link" id="v-pills-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-five" type="button" role="tab" aria-controls="v-pills-five" aria-selected="false" tabindex="-1">Real Time Messaging</button>
-                                                    <button class="nav-link" id="v-pills-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-six" type="button" role="tab" aria-controls="v-pills-six" aria-selected="false" tabindex="-1">Multi User Collaboration</button>
-                                                    <button class="nav-link" id="v-pills-seven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-seven" type="button" role="tab" aria-controls="v-pills-seven" aria-selected="false" tabindex="-1">Custom Video Meeting Interface</button>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
-                                              <div class="tab-pane fade active show" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-one-tab">
-                                                <div class="prjcyImg">
-                                                    <img src="/assets/img/project/project-04.png" alt="">
-                                                </div>
-                                              </div>
-                                              <div class="tab-pane fade" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-two-tab">
-                                                <div class="prjcyImg">
-                                                    <img src="/assets/img/project/project-04.png" alt="">
-                                                </div>
-                                              </div>
-                                              <div class="tab-pane fade" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-three-tab">
-                                                <div class="prjcyImg">
-                                                    <img src="/assets/img/project/project-04.png" alt="">
-                                                </div>
-                                              </div>
-                                              <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab">
-                                                <div class="prjcyImg">
-                                                    <img src="/assets/img/project/project-04.png" alt="">
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                    </div>
-                                </div> -->
-                                <div class="tab-pane fade active show" id="pills-two" role="tabpanel"
-                                    aria-labelledby="pills-two-tab">
-                                    <div class="productsInnertab">
-
-                                        <div class="row align-items-start">
-                                            <div class="col-lg-3 col-md-3">
-                                                <div class="about_header_main">
-                                                    <h3 class="mb-4 pb-2 text-primary- text-center">Modules</h3>
-                                                    </div>
-                                                <div class="nav flex-column nav-pills  prjctShowInner position-relative"
-                                                    id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                                    <button class="nav-link shadow-box active" id="v-pills-two-four-tab"
-                                                        data-bs-toggle="pill" data-bs-target="#v-pills-two-four"
-                                                        type="button" role="tab" aria-controls="v-pills-two-four"
-                                                        aria-selected="true">Leader’s Dashboard</button>
-
-                                                    <button class="nav-link shadow-box" id="v-pills-two-two-tab"
-                                                        data-bs-toggle="pill" data-bs-target="#v-pills-two-two"
-                                                        type="button" role="tab" aria-controls="v-pills-two-two"
-                                                        aria-selected="false" tabindex="-1">Audit Queue</button>
-
-                                                    <button class="nav-link shadow-box " id="v-pills-two-one-tab"
-                                                        data-bs-toggle="pill" data-bs-target="#v-pills-two-one"
-                                                        type="button" role="tab" aria-controls="v-pills-two-one"
-                                                        aria-selected="false" tabindex="-1">Auditing</button>
-
-                                                    <button class="nav-link shadow-box" id="v-pills-two-six-tab"
-                                                        data-bs-toggle="pill" data-bs-target="#v-pills-two-six"
-                                                        type="button" role="tab" aria-controls="v-pills-two-six"
-                                                        aria-selected="false" tabindex="-1">Personalised
-                                                        Reports</button>
-
-                                                    <!-- <button class="nav-link shadow-box" id="v-pills-two-three-tab"
-                                                        data-bs-toggle="pill" data-bs-target="#v-pills-two-three"
-                                                        type="button" role="tab" aria-controls="v-pills-two-three"
-                                                        aria-selected="false" tabindex="-1">Dynamic Inventory
-                                                        Load</button> -->
-
-                                                    <!-- <button class="nav-link shadow-box" id="v-pills-two-five-tab"
-                                                        data-bs-toggle="pill" data-bs-target="#v-pills-two-five"
-                                                        type="button" role="tab" aria-controls="v-pills-two-five"
-                                                        aria-selected="false" tabindex="-1">Multiple Roles
-                                                        Switch</button> -->
-
-                                                    <button class="nav-link shadow-box" id="v-pills-two-seven-tab"
-                                                        data-bs-toggle="pill" data-bs-target="#v-pills-two-seven"
-                                                        type="button" role="tab" aria-controls="v-pills-two-seven"
-                                                        aria-selected="false" tabindex="-1">Statistically Valid
-                                                        Sample</button>
-                                                    <button class="nav-link shadow-box" id="v-pills-two-eight-tab"
-                                                        data-bs-toggle="pill" data-bs-target="#v-pills-two-eight"
-                                                        type="button" role="tab" aria-controls="v-pills-two-eight"
-                                                        aria-selected="false" tabindex="-1">Calibration</button>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
-                                                <div class="tab-pane " id="v-pills-two-one" role="tabpanel"
-                                                    aria-labelledby="v-pills-two-one-tab">
-                                                    <div class="productBoard">
-                                                        <!-- <h6 class="productTitle">Auditor can mark multiple defects in
-                                                            claims which needs to be rectified.</h6> -->
-                                                        <img src="assets/img/product/audit-detail.png" alt="">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10">
+                            <div class="projectShowcase">
+                                <!-- <ul class="nav nav-pills mb-5 justify-content-center prjctShowMain" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-one-tab" data-bs-toggle="pill" data-bs-target="#pills-one" type="button" role="tab" aria-controls="pills-one" aria-selected="false" tabindex="-1">Ecommerce</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-two-tab" data-bs-toggle="pill" data-bs-target="#pills-two" type="button" role="tab" aria-controls="pills-two" aria-selected="true">Healthcare</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-three-tab" data-bs-toggle="pill" data-bs-target="#pills-three" type="button" role="tab" aria-controls="pills-three" aria-selected="false" tabindex="-1">ERP</button>
+                                    </li>
+                                </ul> -->
+                                <div class="tab-content" id="pills-tabContent">
+                                    <!-- <div class="tab-pane fade" id="pills-one" role="tabpanel" aria-labelledby="pills-one-tab">
+                                        <div class="productsInnertab">
+                                            <div class="row align-items-start">
+                                                <div class="col-lg-3 col-md-3">
+                                                    <h3 class="prjctShowTitle">Features</h3>
+                                                    <div class="nav flex-column nav-pills  prjctShowInner position-relative" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                        
+                                                        <button class="nav-link active" id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-controls="v-pills-one" aria-selected="true">Live Field Agent Tracking</button>
+                                                        <button class="nav-link" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-controls="v-pills-two" aria-selected="false" tabindex="-1">Real Time Shipment Updates</button>
+                                                        <button class="nav-link" id="v-pills-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-controls="v-pills-three" aria-selected="false" tabindex="-1">Push Notifications</button>
+                                                        <button class="nav-link" id="v-pills-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-controls="v-pills-four" aria-selected="false" tabindex="-1">Chat &amp; Bots</button>
+                                                        <button class="nav-link" id="v-pills-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-five" type="button" role="tab" aria-controls="v-pills-five" aria-selected="false" tabindex="-1">Real Time Messaging</button>
+                                                        <button class="nav-link" id="v-pills-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-six" type="button" role="tab" aria-controls="v-pills-six" aria-selected="false" tabindex="-1">Multi User Collaboration</button>
+                                                        <button class="nav-link" id="v-pills-seven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-seven" type="button" role="tab" aria-controls="v-pills-seven" aria-selected="false" tabindex="-1">Custom Video Meeting Interface</button>
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane" id="v-pills-two-two" role="tabpanel"
-                                                    aria-labelledby="v-pills-two-two-tab">
-                                                    <div class="productBoard">
-                                                        <!-- <h6 class="productTitle">Auditors can see workqueue and their
-                                                            statuses.</h6> -->
-                                                        <img src="assets/img/product/auditor-queue.png" alt="">
+                                                <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
+                                                <div class="tab-pane fade active show" id="v-pills-one" role="tabpanel" aria-labelledby="v-pills-one-tab">
+                                                    <div class="prjcyImg">
+                                                        <img src="/assets/img/project/project-04.png" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane" id="v-pills-two-three" role="tabpanel"
-                                                    aria-labelledby="v-pills-two-three-tab">
-                                                    <div class="productBoard">
-                                                        <!-- <h6 class="productTitle">Customise data pipeline dynamically
-                                                            with less or no coding required.</h6> -->
-                                                        <img src="assets/img/product/dynamic-inventory-load.png" alt="">
+                                                <div class="tab-pane fade" id="v-pills-two" role="tabpanel" aria-labelledby="v-pills-two-tab">
+                                                    <div class="prjcyImg">
+                                                        <img src="/assets/img/project/project-04.png" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane active show" id="v-pills-two-four" role="tabpanel"
-                                                    aria-labelledby="v-pills-two-four-tab">
-                                                    <div class="productBoard">
-                                                        <!-- <h6 class="productTitle">Leaders can see audit trends and focus
-                                                            areas which helps in improving revenue.</h6> -->
-                                                        <img src="assets/img/product/Leader-landing-page.jpg" alt="">
+                                                <div class="tab-pane fade" id="v-pills-three" role="tabpanel" aria-labelledby="v-pills-three-tab">
+                                                    <div class="prjcyImg">
+                                                        <img src="/assets/img/project/project-04.png" alt="">
                                                     </div>
                                                 </div>
-                                                <!-- <div class="tab-pane" id="v-pills-two-five" role="tabpanel"
-                                                    aria-labelledby="v-pills-two-five-tab">
-                                                    <div class="productBoard">
-                                                        <h6 class="productTitle">A user can have a multiple roles
-                                                            assigned. System is designed to give such flexibility.</h6>
-                                                        <img src="assets/img/product/Multi-role-assign.png" alt="">
-                                                    </div>
-                                                </div> -->
-                                                <div class="tab-pane" id="v-pills-two-six" role="tabpanel"
-                                                    aria-labelledby="v-pills-two-six-tab">
-                                                    <div class="productBoard">
-                                                        <!-- <h6 class="productTitle">A customizable reports dashboard.
-                                                            Specific to users need and their relevant clients reports.
-                                                        </h6> -->
-                                                        <img src="assets/img/product/reports-dashboard.png" alt="">
+                                                <div class="tab-pane fade" id="v-pills-four" role="tabpanel" aria-labelledby="v-pills-four-tab">
+                                                    <div class="prjcyImg">
+                                                        <img src="/assets/img/project/project-04.png" alt="">
                                                     </div>
                                                 </div>
-                                                <div class="tab-pane" id="v-pills-two-seven" role="tabpanel"
-                                                    aria-labelledby="v-pills-two-seven-tab">
-                                                    <div class="productBoard">
-                                                        <!-- <h6 class="productTitle">Customize your sample goals with
-                                                            various busniess clauses.</h6> -->
-                                                        <img src="assets/img/product/svs-sampling.png" alt="">
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane" id="v-pills-two-eight" role="tabpanel"
-                                                    aria-labelledby="v-pills-two-eight-tab">
-                                                    <div class="productBoard">
-                                                        <!-- <h6 class="productTitle">Aligning processes, systems, or teams
-                                                            to ensure consistency and accuracy in outcomes.</h6> -->
-                                                        <img src="assets/img/product/calibration.jpeg" alt="">
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div> -->
+                                    <div class="tab-pane fade active show" id="pills-two" role="tabpanel"
+                                        aria-labelledby="pills-two-tab">
+                                        <div class="productsInnertab">
 
+                                            <div class="row align-items-start">
+                                                <div class="col-lg-3 col-md-3">
+                                                    <div class="about_header_main">
+                                                        <h3 class="mb-4 pb-2 text-primary- text-center">Modules</h3>
+                                                        </div>
+                                                    <div class="nav flex-column nav-pills  prjctShowInner position-relative"
+                                                        id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                        <button class="nav-link shadow-box active" id="v-pills-two-four-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-two-four"
+                                                            type="button" role="tab" aria-controls="v-pills-two-four"
+                                                            aria-selected="true">Leader’s Dashboard</button>
+
+                                                        <button class="nav-link shadow-box" id="v-pills-two-two-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-two-two"
+                                                            type="button" role="tab" aria-controls="v-pills-two-two"
+                                                            aria-selected="false" tabindex="-1">Audit Queue</button>
+
+                                                        <button class="nav-link shadow-box " id="v-pills-two-one-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-two-one"
+                                                            type="button" role="tab" aria-controls="v-pills-two-one"
+                                                            aria-selected="false" tabindex="-1">Auditing</button>
+
+                                                        <button class="nav-link shadow-box" id="v-pills-two-six-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-two-six"
+                                                            type="button" role="tab" aria-controls="v-pills-two-six"
+                                                            aria-selected="false" tabindex="-1">Personalised
+                                                            Reports</button>
+
+                                                        <!-- <button class="nav-link shadow-box" id="v-pills-two-three-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-two-three"
+                                                            type="button" role="tab" aria-controls="v-pills-two-three"
+                                                            aria-selected="false" tabindex="-1">Dynamic Inventory
+                                                            Load</button> -->
+
+                                                        <!-- <button class="nav-link shadow-box" id="v-pills-two-five-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-two-five"
+                                                            type="button" role="tab" aria-controls="v-pills-two-five"
+                                                            aria-selected="false" tabindex="-1">Multiple Roles
+                                                            Switch</button> -->
+
+                                                        <button class="nav-link shadow-box" id="v-pills-two-seven-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-two-seven"
+                                                            type="button" role="tab" aria-controls="v-pills-two-seven"
+                                                            aria-selected="false" tabindex="-1">Statistically Valid
+                                                            Sample</button>
+                                                        <button class="nav-link shadow-box" id="v-pills-two-eight-tab"
+                                                            data-bs-toggle="pill" data-bs-target="#v-pills-two-eight"
+                                                            type="button" role="tab" aria-controls="v-pills-two-eight"
+                                                            aria-selected="false" tabindex="-1">Calibration</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
+                                                    <div class="tab-pane " id="v-pills-two-one" role="tabpanel"
+                                                        aria-labelledby="v-pills-two-one-tab">
+                                                        <div class="productBoard">
+                                                            <!-- <h6 class="productTitle">Auditor can mark multiple defects in
+                                                                claims which needs to be rectified.</h6> -->
+                                                            <img src="assets/img/product/audit-detail.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="v-pills-two-two" role="tabpanel"
+                                                        aria-labelledby="v-pills-two-two-tab">
+                                                        <div class="productBoard">
+                                                            <!-- <h6 class="productTitle">Auditors can see workqueue and their
+                                                                statuses.</h6> -->
+                                                            <img src="assets/img/product/auditor-queue.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="v-pills-two-three" role="tabpanel"
+                                                        aria-labelledby="v-pills-two-three-tab">
+                                                        <div class="productBoard">
+                                                            <!-- <h6 class="productTitle">Customise data pipeline dynamically
+                                                                with less or no coding required.</h6> -->
+                                                            <img src="assets/img/product/dynamic-inventory-load.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane active show" id="v-pills-two-four" role="tabpanel"
+                                                        aria-labelledby="v-pills-two-four-tab">
+                                                        <div class="productBoard">
+                                                            <!-- <h6 class="productTitle">Leaders can see audit trends and focus
+                                                                areas which helps in improving revenue.</h6> -->
+                                                            <img src="assets/img/product/Leader-landing-page.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <!-- <div class="tab-pane" id="v-pills-two-five" role="tabpanel"
+                                                        aria-labelledby="v-pills-two-five-tab">
+                                                        <div class="productBoard">
+                                                            <h6 class="productTitle">A user can have a multiple roles
+                                                                assigned. System is designed to give such flexibility.</h6>
+                                                            <img src="assets/img/product/Multi-role-assign.png" alt="">
+                                                        </div>
+                                                    </div> -->
+                                                    <div class="tab-pane" id="v-pills-two-six" role="tabpanel"
+                                                        aria-labelledby="v-pills-two-six-tab">
+                                                        <div class="productBoard">
+                                                            <!-- <h6 class="productTitle">A customizable reports dashboard.
+                                                                Specific to users need and their relevant clients reports.
+                                                            </h6> -->
+                                                            <img src="assets/img/product/reports-dashboard.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="v-pills-two-seven" role="tabpanel"
+                                                        aria-labelledby="v-pills-two-seven-tab">
+                                                        <div class="productBoard">
+                                                            <!-- <h6 class="productTitle">Customize your sample goals with
+                                                                various busniess clauses.</h6> -->
+                                                            <img src="assets/img/product/svs-sampling.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="v-pills-two-eight" role="tabpanel"
+                                                        aria-labelledby="v-pills-two-eight-tab">
+                                                        <div class="productBoard">
+                                                            <!-- <h6 class="productTitle">Aligning processes, systems, or teams
+                                                                to ensure consistency and accuracy in outcomes.</h6> -->
+                                                            <img src="assets/img/product/calibration.jpeg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                     </div>
+                                    <!-- <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
+                                        <div class="productsInnertab">
+                                            <div class="row align-items-start">
+                                                <div class="col-lg-3 col-md-3">
+                                                    <h3 class="prjctShowTitle">Features</h3>
+                                                    <div class="nav flex-column nav-pills  prjctShowInner position-relative" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                        
+                                                        <button class="nav-link active" id="v-pills-three-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-one" type="button" role="tab" aria-controls="v-pills-three-one" aria-selected="true">Live Field Agent Tracking</button>
+                                                        <button class="nav-link" id="v-pills-three-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-two" type="button" role="tab" aria-controls="v-pills-three-two" aria-selected="false" tabindex="-1">Real Time Shipment Updates</button>
+                                                        <button class="nav-link" id="v-pills-three-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-three" type="button" role="tab" aria-controls="v-pills-three-three" aria-selected="false" tabindex="-1">Push Notifications</button>
+                                                        <button class="nav-link" id="v-pills-three-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-four" type="button" role="tab" aria-controls="v-pills-three-four" aria-selected="false" tabindex="-1">Chat &amp; Bots</button>
+                                                        <button class="nav-link" id="v-pills-three-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-five" type="button" role="tab" aria-controls="v-pills-three-five" aria-selected="false" tabindex="-1">Real Time Messaging</button>
+                                                        <button class="nav-link" id="v-pills-three-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-six" type="button" role="tab" aria-controls="v-pills-three-six" aria-selected="false" tabindex="-1">Multi User Collaboration</button>
+                                                        <button class="nav-link" id="v-pills-three-seven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-seven" type="button" role="tab" aria-controls="v-pills-three-seven" aria-selected="false" tabindex="-1">Custom Video Meeting Interface</button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
+                                                <div class="tab-pane fade show active" id="v-pills-three-one" role="tabpanel" aria-labelledby="v-pills-three-one-tab">
+                                                    <div class="prjcyImg">
+                                                        <img src="/assets/img/project/project-04.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-three-two" role="tabpanel" aria-labelledby="v-pills-three-two-tab">
+                                                    <div class="prjcyImg">
+                                                        <img src="/assets/img/project/project-04.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-three-three" role="tabpanel" aria-labelledby="v-pills-three-three-tab">
+                                                    <div class="prjcyImg">
+                                                        <img src="/assets/img/project/project-04.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="v-pills-three-four" role="tabpanel" aria-labelledby="v-pills-three-four-tab">
+                                                    <div class="prjcyImg">
+                                                        <img src="/assets/img/project/project-04.png" alt="">
+                                                    </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> -->
                                 </div>
-                                <!-- <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">
-                                    <div class="productsInnertab">
-                                        <div class="row align-items-start">
-                                            <div class="col-lg-3 col-md-3">
-                                                <h3 class="prjctShowTitle">Features</h3>
-                                                <div class="nav flex-column nav-pills  prjctShowInner position-relative" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                                    
-                                                    <button class="nav-link active" id="v-pills-three-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-one" type="button" role="tab" aria-controls="v-pills-three-one" aria-selected="true">Live Field Agent Tracking</button>
-                                                    <button class="nav-link" id="v-pills-three-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-two" type="button" role="tab" aria-controls="v-pills-three-two" aria-selected="false" tabindex="-1">Real Time Shipment Updates</button>
-                                                    <button class="nav-link" id="v-pills-three-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-three" type="button" role="tab" aria-controls="v-pills-three-three" aria-selected="false" tabindex="-1">Push Notifications</button>
-                                                    <button class="nav-link" id="v-pills-three-four-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-four" type="button" role="tab" aria-controls="v-pills-three-four" aria-selected="false" tabindex="-1">Chat &amp; Bots</button>
-                                                    <button class="nav-link" id="v-pills-three-five-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-five" type="button" role="tab" aria-controls="v-pills-three-five" aria-selected="false" tabindex="-1">Real Time Messaging</button>
-                                                    <button class="nav-link" id="v-pills-three-six-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-six" type="button" role="tab" aria-controls="v-pills-three-six" aria-selected="false" tabindex="-1">Multi User Collaboration</button>
-                                                    <button class="nav-link" id="v-pills-three-seven-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three-seven" type="button" role="tab" aria-controls="v-pills-three-seven" aria-selected="false" tabindex="-1">Custom Video Meeting Interface</button>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-9 col-md-9 tab-content" id="v-pills-tabContent">
-                                              <div class="tab-pane fade show active" id="v-pills-three-one" role="tabpanel" aria-labelledby="v-pills-three-one-tab">
-                                                <div class="prjcyImg">
-                                                    <img src="/assets/img/project/project-04.png" alt="">
-                                                </div>
-                                              </div>
-                                              <div class="tab-pane fade" id="v-pills-three-two" role="tabpanel" aria-labelledby="v-pills-three-two-tab">
-                                                <div class="prjcyImg">
-                                                    <img src="/assets/img/project/project-04.png" alt="">
-                                                </div>
-                                              </div>
-                                              <div class="tab-pane fade" id="v-pills-three-three" role="tabpanel" aria-labelledby="v-pills-three-three-tab">
-                                                <div class="prjcyImg">
-                                                    <img src="/assets/img/project/project-04.png" alt="">
-                                                </div>
-                                              </div>
-                                              <div class="tab-pane fade" id="v-pills-three-four" role="tabpanel" aria-labelledby="v-pills-three-four-tab">
-                                                <div class="prjcyImg">
-                                                    <img src="/assets/img/project/project-04.png" alt="">
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </div>
-                                    </div>
-                                </div> -->
                             </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-            </div>
-        </div>
+                </div>
+            
     </div>
 
         </section>
         <!-- Product Card -->
 
         <!-- Tech stack -->
-        <div class="container mb-0" style="margin-top: 100px;">
-            <div class="titleBox text-center">
-                <h2>Our Tech Stack</h2>
-            </div></div>
+
+        <div class="techStackMain position-relative pdng" style="background-image: url('assets/img/technology.jpg');">
+            <div class="techStackInner position-relative">
+            <div class="container mb-0">
+                <div class="titleBox text-center mb-4 pb-2">
+                    <h2>Our Tech Stack</h2>
+                </div>
+            </div>
         <section class="main-container-j">
 
           
@@ -856,7 +884,8 @@
                 </div>
             </div>
         </section>
-
+    </div>
+    </div>
 
 
         <section class="service1__padding technologiesSec overflow-hidden aos-init aos-animate d-none"
