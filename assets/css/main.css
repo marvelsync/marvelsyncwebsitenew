@@ -2704,7 +2704,8 @@ a.meanmenu-reveal {
 
 .header.home1 .header__logo {
   position: relative;
-  max-width: 150px;
+    max-width: 160px;
+    transform: translateY(25px);
 }
 
 @media only screen and (max-width: 319px) {
@@ -10151,7 +10152,7 @@ footer>.container {
 }
 
 .pdng {
-  padding: 4rem 0 4rem;
+  padding: 80px 0 80px;
 }
 
 .bannerHeading {
@@ -10476,7 +10477,7 @@ footer>.container {
 }
 
 .marvelstory {
-  min-height: 860px;
+  min-height: 900px;
   background-image: url('../img/serviceBG.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -11046,13 +11047,16 @@ footer>.container {
 .featuredPillsitems .nav-link .aboutLabelIcon {
   width: 90px;
   height: 90px;
-  padding: 27px;
+  padding: 25px;
   transition: 0.3s linear;
   background-color: #ffffff;
   box-shadow: rgb(149 157 165 / 34%) 0px 8px 24px;
 }
 .featuredPillsitems .nav-link .aboutLabelIcon img{
-  filter:invert(1)
+  filter:invert(0)
+}
+.featuredPillsitems .nav-link.active .aboutLabelIcon img{
+  filter: invert(1);
 }
 
 .featuredPillsitems .nav-link {
@@ -11078,9 +11082,6 @@ footer>.container {
 .featuredPillsitems .nav-link.active .aboutLabelIcon {
   background-color: var(--primary_color_01) !important;
 
-}
-.featuredPillsitems .nav-link.active .aboutLabelIcon img{
-  filter: invert(0);
 }
 
 /* Positioning the items around the circle */
@@ -11135,33 +11136,29 @@ footer>.container {
 }
 
 /* Jarwiz showcase */
-
-.bannerImage::after {
+.bannerImage::after,
+.bannerImage::before{
   content: '';
   position: absolute;
   width: 20px;
-  height: 140px;
+  height: 210px;
   background-color: #f7f7f9;
-  right: -10px;
-  top: 140px;
   filter: blur(4px);
 }
+.bannerImage::after {
+  right: -10px;
+  top: 80px;
+}
 .bannerImage::before {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 140px;
-  background-color: #f7f7f9;
   left: -10px;
-  bottom: 130px;
-  filter: blur(4px);
+  bottom: 69px;
 }
 
 .z-index-1{
   z-index: 10;
 }
 .bannerSection {
-  margin-top: -7.5rem;
+  margin-top: -8.3rem;
   padding-top: 5.5rem;
 }
 .marvetTechCard {
@@ -11209,4 +11206,77 @@ footer>.container {
 .fillOutline circle {
   transform: scale(1.05);
   transform-origin: center center;
+}
+
+.circleFeature .tab-pane.active #my-circle{
+  animation: dashAnimation 2s linear infinite;
+}
+@keyframes dashAnimation {
+  from {
+    stroke-dashoffset: 1200;
+  }
+  to {
+    stroke-dashoffset: 0;
+
+  }
+}
+.bannerBottomTitle {
+  margin-top: -60px;
+  margin-bottom: 0;
+}
+
+.techStackMain .titleBox, .techStackMain .container {
+  position: relative;
+  z-index: 10;
+}
+.whyChsLeftMain {
+  padding: 0rem 5rem 0rem 5rem;
+}
+.whyChsAccrdinner .accordion-item {
+  margin-bottom: 1rem;
+  border: none;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+.whyChsAccrdinner .accordion-item .accordion-button {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: #fafafa;
+  border-radius: 7px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #012c6c;
+  gap: 15px;
+}
+.whyChsAccrdinner .accordion-item .accordion-button::after{
+  display: none;
+}
+.whyChsAccrdinner .accordion-item  .accordion-button:not(.collapsed){
+  color: #c41c44 !important;
+  background-color: #f2f7ff;
+}
+
+.whyChsAccrdinner .accordion-item .accordion-body{
+  background-color: #f2f7ff;
+    padding-top: 0;
+    padding-left: 3.4rem;
+}
+.whyChsSection.techStackMain::after {
+  opacity: 0.5 !important;
+}
+.iconBold::before {
+  font-weight: 900 !important;
+}
+.whyChsAccrdinner .accordion-item .accordion-button .bi-dash-lg{
+  display: none;
+  }
+.whyChsAccrdinner .accordion-item .accordion-button:not(.collapsed) .bi-plus-lg{
+display: none;
+}
+.whyChsAccrdinner .accordion-item .accordion-button:not(.collapsed) .bi-dash-lg{
+display: block;
+}
+.whyChsLeftInner h2 {
+  font-size: 40px;
 }
