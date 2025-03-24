@@ -11781,6 +11781,7 @@ footer > .container {
 .showCaseProduct {
   height: 600px;
 }
+
   /*  */
 }
 @media (max-width: 768px) {
@@ -11790,6 +11791,10 @@ footer > .container {
   .mainCenter{
     transform: scale(0.34);
   }
+  .main-j {
+
+    scale: 0.7;
+}
   /*  */
 }
 @media (max-width: 375px) {
