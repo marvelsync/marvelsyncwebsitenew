@@ -10607,6 +10607,11 @@ footer>.container {
   -webkit-animation: Rotate 20s linear infinite;
 }
 
+.too-big-circle .icon-block img {
+  animation: img-rotate 20s linear infinite;
+  -webkit-animation: img-rotate 20s linear infinite;
+}
+
 .icon-block {
   width: 80px;
   height: 80px;
@@ -10624,8 +10629,8 @@ footer>.container {
 .icon-block img {
   margin: 0px auto;
   width: 100%;
-  animation: Rotate-reverse 20s linear infinite;
-
+  animation: img-rotate-2 20s linear infinite;
+  -webkit-animation: img-rotate-2 20s linear infinite;
   height: 100%;
   object-fit: contain;
 }
@@ -10753,21 +10758,41 @@ footer>.container {
 
 @keyframes img-rotate {
   from {
-    transform: rotate(-45deg);
+    transform: rotate(-0deg);
   }
 
   to {
-    transform: rotate(-405deg);
+    transform: rotate(-360deg);
   }
 }
 
 @-webkit-keyframes img-rotate {
   from {
-    -webkit-transform: rotate(-45deg);
+    -webkit-transform: rotate(-0deg);
   }
 
   to {
-    -webkit-transform: rotate(-405deg);
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+@keyframes img-rotate-2 {
+  from {
+    transform: rotate(-40deg);
+  }
+
+  to {
+    transform: rotate(-400deg);
+  }
+}
+
+@-webkit-keyframes img-rotate-2 {
+  from {
+    -webkit-transform: rotate(-40deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-400deg);
   }
 }
 
