@@ -11337,27 +11337,27 @@ footer>.container {
 }
 
 .outerLogoImg:nth-child(1) {
-  left: 4%;
+  left: 20%;
   top: 17%;
   animation-delay: 0s;
 }
 
 .outerLogoImg:nth-child(2) {
   left: 26%;
-  top: 10%;
+  top: 4%;
   animation-delay: 0.1s;
 }
 
 .outerLogoImg:nth-child(3) {
-  left: 17%;
-  top: 30%;
+  left: 13%;
+  top: 35%;
   animation-delay: 0.2s;
 }
 
 .outerLogoImg:nth-child(4) {
   bottom: 40%;
   top: unset;
-  left: 7%;
+  left: 20%;
   animation-delay: 0.3s;
 }
 
@@ -11369,7 +11369,7 @@ footer>.container {
 }
 
 .outerLogoImg:nth-child(6) {
-  left: 5%;
+  left: 30%;
   bottom: 0%;
   top: unset;
   animation-delay: 0.5s;
@@ -11383,14 +11383,14 @@ footer>.container {
 }
 
 .outerLogoImg:nth-child(8) {
-  right: 14%;
+  right: 30%;
   bottom: 0%;
   top: unset;
   animation-delay: 0.7s;
 }
 
 .outerLogoImg:nth-child(9) {
-  right: 5%;
+  right: 10%;
   top: 59%;
   animation-delay: 0.8s;
 }
@@ -11402,7 +11402,7 @@ footer>.container {
 }
 
 .outerLogoImg:nth-child(11) {
-  right: 8%;
+  right: 20%;
   top: 12%;
   animation-delay: 1s;
 }
@@ -11751,7 +11751,7 @@ footer>.container {
   }
 
   .outerLogoImg:nth-child(9) {
-    right: 5%;
+    right: 10%;
     top: 81%;
   }
 
@@ -11762,12 +11762,12 @@ footer>.container {
 
   .outerLogoImg:nth-child(3) {
     left: 15%;
-    top: 21%;
+    top: 10%;
   }
 
   .outerLogoImg:nth-child(2) {
-    left: 38%;
-    top: 10%;
+    left: 30%;
+    top: 3%;
   }
 
   .outerLogoImg:nth-child(1) {
