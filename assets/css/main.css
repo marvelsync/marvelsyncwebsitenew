@@ -9948,7 +9948,7 @@ footer::after {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #000;
+  background-color: #383737;
   opacity: 0.7;
   z-index: 0;
 }
@@ -11486,13 +11486,14 @@ footer>.container {
   margin: 0 auto;
   border-radius: 1rem;
   padding: 3rem !important;
-  height: 300px;
+  height: 170px;
   transform: translateY(-10rem);
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   margin-bottom: -10rem;
+  box-shadow: rgb(0 0 0) 0px 10px 30px -7px;
 }
 
 .contactsmallBg {
@@ -11507,7 +11508,7 @@ footer>.container {
 }
 
 .contactsmallCard:before {
-  background: rgb(2 44 108);
+  background: #fff;
   content: "";
   display: block;
   height: 100%;
