@@ -11445,7 +11445,7 @@ footer>.container {
 .processBgOverlay {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 1rem;
   height: 100%;
   left: 0;
@@ -11507,7 +11507,7 @@ footer>.container {
 }
 
 .contactsmallCard:before {
-  background: rgba(30, 34, 40, .5);
+  background: rgb(2 44 108);
   content: "";
   display: block;
   height: 100%;
