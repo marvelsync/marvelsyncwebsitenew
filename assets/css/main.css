@@ -11294,6 +11294,7 @@ footer>.container {
   background-color: #f2f7ff;
   padding-top: 0;
   padding-left: 3.4rem;
+  min-height: 680px;
 }
 
 .whyChsSection.techStackMain::after {
@@ -11532,7 +11533,9 @@ footer>.container {
   margin-bottom: 5rem;
   padding-top: 3rem;
 }
-
+.pointer-none{
+  pointer-events: none !important;
+}
 @media (max-width: 820px) {
 
   html,
