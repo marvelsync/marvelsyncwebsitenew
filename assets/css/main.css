@@ -11264,7 +11264,7 @@ footer>.container {
 }
 
 .whyChsLeftMain {
-  padding: 0rem 5rem 0rem 5rem;
+  /* padding: 0rem 5rem 0rem 5rem; */
 }
 
 .whyChsAccrdinner .accordion-item {
@@ -11297,9 +11297,10 @@ footer>.container {
 
 .whyChsAccrdinner .accordion-item .accordion-body {
   background-color: #f2f7ff;
-  padding-top: 0;
+  padding-top: 10px;
   padding-left: 3.4rem;
-  min-height: 750px;
+  /* min-height: 750px; */
+  min-height: 5%;
 }
 
 .whyChsSection.techStackMain::after {
