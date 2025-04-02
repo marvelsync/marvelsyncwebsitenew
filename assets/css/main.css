@@ -11895,3 +11895,7 @@ footer>.container {
 @media (max-width: 320px) {
   /*  */
 }
+
+.mainCenterInner {
+  min-height: 200px;
+}
