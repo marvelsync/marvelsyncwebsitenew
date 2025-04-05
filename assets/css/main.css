@@ -10587,8 +10587,8 @@ footer>.container {
   border-radius: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
-  animation: circle-rotate 20s linear infinite;
-  -webkit-animation: circle-rotate 20s linear infinite;
+  /* animation: circle-rotate 20s linear infinite; */
+  /* -webkit-animation: circle-rotate 20s linear infinite; */
 }
 
 .too-big-circle {
@@ -10603,13 +10603,18 @@ footer>.container {
   -webkit-align-items: center;
   justify-content: center;
   -webkit-justify-content: center;
-  animation: Rotate 20s linear infinite;
-  -webkit-animation: Rotate 20s linear infinite;
+  /* animation: Rotate 20s linear infinite; */
+  /* -webkit-animation: Rotate 20s linear infinite; */
 }
 
 .too-big-circle .icon-block img {
-  animation: img-rotate 20s linear infinite;
-  -webkit-animation: img-rotate 20s linear infinite;
+  /* animation: img-rotate 20s linear infinite; */
+  /* -webkit-animation: img-rotate 20s linear infinite; */
+}
+
+.big-circle .icon-block img {
+  transform: translate(-50%, -50%) rotate(316deg);
+  -webkit-transform: translate(-0%, -0%) rotate(316deg);
 }
 
 .icon-block {
@@ -10629,8 +10634,8 @@ footer>.container {
 .icon-block img {
   margin: 0px auto;
   width: 100%;
-  animation: img-rotate-2 20s linear infinite;
-  -webkit-animation: img-rotate-2 20s linear infinite;
+  /* animation: img-rotate-2 20s linear infinite; */
+  /* -webkit-animation: img-rotate-2 20s linear infinite; */
   height: 100%;
   object-fit: contain;
 }
@@ -10665,8 +10670,8 @@ footer>.container {
 
 /* circle content */
 .circle {
-  animation: Rotate 20s linear infinite;
-  -webkit-animation: Rotate 20s linear infinite;
+  /* animation: Rotate 20s linear infinite; */
+  /* -webkit-animation: Rotate 20s linear infinite; */
   position: absolute;
   top: 25%;
   left: 25%;
@@ -10677,8 +10682,8 @@ footer>.container {
 }
 
 .circle .icon-block img {
-  animation: img-rotate 20s linear infinite;
-  -webkit-animation: img-rotate 20s linear infinite;
+  /* animation: img-rotate 20s linear infinite; */
+  /* -webkit-animation: img-rotate 20s linear infinite; */
 }
 
 /* center logo */
@@ -11259,7 +11264,7 @@ footer>.container {
 }
 
 .whyChsLeftMain {
-  padding: 0rem 5rem 0rem 5rem;
+  /* padding: 0rem 5rem 0rem 5rem; */
 }
 
 .whyChsAccrdinner .accordion-item {
@@ -11292,9 +11297,10 @@ footer>.container {
 
 .whyChsAccrdinner .accordion-item .accordion-body {
   background-color: #f2f7ff;
-  padding-top: 0;
+  padding-top: 10px;
   padding-left: 3.4rem;
-  min-height: 750px;
+  /* min-height: 750px; */
+  min-height: 5%;
 }
 
 .whyChsSection.techStackMain::after {
@@ -11334,7 +11340,7 @@ footer>.container {
   overflow: hidden;
   padding: 12px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  animation: logoMove 1s linear infinite;
+  /* animation: logoMove 1s linear infinite; */
 }
 
 .outerLogoImg:nth-child(1) {
@@ -11356,9 +11362,9 @@ footer>.container {
 }
 
 .outerLogoImg:nth-child(4) {
-  bottom: 40%;
+  bottom: 38%;
   top: unset;
-  left: 20%;
+  left: 10%;
   animation-delay: 0.3s;
 }
 
@@ -11533,9 +11539,11 @@ footer>.container {
   margin-bottom: 5rem;
   padding-top: 3rem;
 }
-.pointer-none{
+
+.pointer-none {
   pointer-events: none !important;
 }
+
 @media (max-width: 820px) {
 
   html,
@@ -11887,4 +11895,8 @@ footer>.container {
 
 @media (max-width: 320px) {
   /*  */
+}
+
+.mainCenterInner {
+  min-height: 270px;
 }
