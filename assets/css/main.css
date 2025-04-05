@@ -12043,6 +12043,7 @@ footer > .container {
   }
   .techStackMain.ourTechLogos {
     height: fit-content;
+    
     min-height: fit-content !important;
     padding-bottom: 20px;
   }
