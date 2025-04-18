@@ -11746,6 +11746,13 @@ footer > .container {
 .gtftcpyrt{
   display: none;
 }
+.serviceBannermain {
+  margin: 5rem 0rem 0rem;
+  padding: 2rem 2rem;
+}
+.serviceBannerinner p {
+  font-size: 16px;
+}
 @media (max-width: 1024px) {
   html,
   body {
