@@ -11753,6 +11753,9 @@ footer > .container {
 .serviceBannerinner p {
   font-size: 16px;
 }
+.aboutus {
+  margin-top: -2.4rem;
+}
 @media (max-width: 1024px) {
   html,
   body {
@@ -11836,6 +11839,17 @@ footer > .container {
 .outerLogoImg:nth-child(7) {
   bottom: 10%;
   right: 7%;
+}
+
+.serviceBannerinner .row > div{
+  width: 100%;
+  text-align: center;
+}
+.serviceBannerinner .row > div.col-lg-10 {
+  margin-bottom: 1.6rem;
+}
+.aboutus {
+  margin-top: -0.5rem;
 }
 }
 @media (max-width: 820px) {
