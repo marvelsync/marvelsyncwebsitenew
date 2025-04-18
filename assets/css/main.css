@@ -11743,6 +11743,9 @@ footer > .container {
 .mainCenterInner {
   min-height: 270px;
 }
+.gtftcpyrt{
+  display: none;
+}
 @media (max-width: 1024px) {
   html,
   body {
@@ -12316,7 +12319,14 @@ footer > .container {
     font-weight: 500;
     line-height: 40px;
   }
-
+.abtftcpyrt{
+  display: none;
+}
+.gtftcpyrt{
+  display: block;
+  margin-bottom: 1rem;
+  text-align: center;
+}
   /*  */
 }
 
