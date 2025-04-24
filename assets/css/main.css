@@ -11759,6 +11759,30 @@ footer > .container {
 .aboutus {
   margin-top: -2.4rem;
 }
+
+.featCardMain {
+  background-color:#e3eeff;
+  padding: 25px 20px 20px;
+  margin-bottom: 1.4rem;
+  border-radius: 10px;
+  /* box-shadow:rgb(0 0 0 / 5%) 0px 10px 15px -3px, rgb(0 0 0 / 0%) 0px 4px 6px -2px; */
+  /* min-height: 209px; */
+}
+.featIcon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-color: #ffffff;
+  padding: 8px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.featCardInner h3 {
+  font-size: 16px;
+}
+.featCardInner p {
+  line-height: 25px;
+}
 @media (max-width: 1024px) {
   html,
   body {
