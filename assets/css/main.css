@@ -11772,10 +11772,13 @@ footer > .container {
   display: inline-block;
   width: 45px;
   height: 45px;
-  background-color: #ffffff;
+  background-color: var(--secondary_color_01);
   padding: 8px;
   border-radius: 50%;
   margin-bottom: 1rem;
+}
+.featIcon img{
+  filter: invert(1);
 }
 .featCardInner h3 {
   font-size: 16px;
